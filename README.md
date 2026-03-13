@@ -32,25 +32,60 @@ Si Python está instalado, el sistema mostrará la versión instalada.
 
 ---
 
-## Cómo clonar el repositorio
+# Cómo clonar el repositorio
 
-Para descargar este proyecto desde GitHub, utiliza el siguiente comando en la terminal:
+Este proyecto se encuentra en la rama **H1** del repositorio.
 
-
-git clone https://github.com/Dan623280/Historia-de-usuario--M1S1.git
-
-
-Después entra a la carpeta del proyecto con el comando:
+Para clonar el repositorio ejecuta el siguiente comando:
 
 
-cd Historia-de-usuario--M1S1
+git clone https://github.com/Dan623280/Historia-de-Usuario.git
+
+
+Luego entra a la carpeta del proyecto:
+
+
+cd Historia-de-Usuario
 
 
 ---
 
-## Cómo ejecutar el programa
+# Cómo traer la rama H1
 
-Una vez dentro de la carpeta del proyecto, ejecuta el siguiente comando:
+Después de clonar el repositorio, debes cambiarte a la rama **H1** donde se encuentra el proyecto.
+
+Primero descarga las ramas del repositorio:
+
+
+git fetch
+
+
+Luego cambia a la rama **H1**:
+
+
+git checkout H1
+
+
+Puedes verificar que estás en la rama correcta con:
+
+
+git branch
+
+
+La terminal mostrará algo similar a:
+
+
+H1
+main
+
+
+El asterisco (*) indica la rama en la que te encuentras.
+
+---
+
+# Cómo ejecutar el programa
+
+Una vez dentro de la carpeta del proyecto y ubicado en la rama **H1**, ejecuta el siguiente comando:
 
 
 python inventario.py
@@ -60,13 +95,13 @@ El programa mostrará un mensaje de bienvenida y solicitará al usuario ingresar
 
 ---
 
-## Cómo utilizar el programa
+# Cómo utilizar el programa
 
 El programa solicitará los siguientes datos:
 
-1. **Nombre del producto**
-2. **Precio unitario**
-3. **Cantidad del producto**
+1. Nombre del producto  
+2. Precio unitario  
+3. Cantidad del producto  
 
 Después de ingresar los datos, el sistema mostrará la información del producto y el costo total.
 
@@ -81,7 +116,7 @@ Total: 1500
 
 ---
 
-## Manejo de errores
+# Manejo de errores
 
 El programa incluye validación de datos para evitar errores.
 
@@ -92,7 +127,7 @@ Esto garantiza que los cálculos se realicen correctamente.
 
 ---
 
-## Diagrama de flujo del programa
+# Diagrama de flujo del programa
 
 El repositorio incluye un archivo con el diagrama de flujo del sistema:
 
@@ -100,7 +135,7 @@ El repositorio incluye un archivo con el diagrama de flujo del sistema:
 M1S1.drawio.pdf
 
 
-### Cómo abrir el archivo PDF
+## Cómo abrir el archivo PDF
 
 1. Descarga el archivo desde el repositorio.
 2. Haz doble clic en el archivo **M1S1.drawio.pdf**.
@@ -113,16 +148,16 @@ M1S1.drawio.pdf
 
 Este diagrama muestra las tres fases del programa:
 
-- **Entrada de datos**
-- **Procesamiento**
-- **Salida de resultados**
+- Entrada de datos
+- Procesamiento
+- Salida de resultados
 
 ---
 
-## Estructura del proyecto
+# Estructura del proyecto
 
 
-Historia-de-usuario--M1S1
+Historia-de-Usuario
 │
 ├── inventario.py
 ├── README.md
@@ -135,6 +170,6 @@ Historia-de-usuario--M1S1
 
 ---
 
-## Autor
+# Autor
 
-Daniel Elias Alvarez Diaz
+**Daniel Elias Alvarez Diaz**
